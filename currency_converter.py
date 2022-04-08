@@ -1,3 +1,4 @@
+import os
 import urllib.request
 from xml.dom import minidom
 
@@ -53,3 +54,5 @@ result = convert_sum * HUF_to_RUB * RUB_to_NOK
 
 print(date)
 print(f'{convert_sum} венгерских форинтов = {round(result, 2)} норвежских крон')
+
+os.remove('currency_data.xml')
