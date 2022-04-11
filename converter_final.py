@@ -99,3 +99,4 @@ while True:
         window['result'].update(str(round(conv_res, 2)))
 window.close()
 os.remove('currency_data.xml')
+
