@@ -1,7 +1,7 @@
 import PySimpleGUI as sg
 
 curr_list = ['USD', 'EUR', 'RUB']
-# Create some elements
+# Create the elements
 layout = [[sg.Text("Выберите первую валюту", font='Colibri 14', background_color='green'), sg.Combo(curr_list, key='input_1', font='Colibri 12', size=(5, 1))],
           [sg.Text('Сумма конвертации', font='Colibri 13', background_color='green'), sg.InputText('', key='amount', size=(15, 1))],
           [sg.Text("Выберите вторую валюту", font='Colibri 14', background_color='green'), sg.Combo(curr_list, key='input_2', font='Colibri 12', size=(5, 1))],
