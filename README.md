@@ -1,5 +1,7 @@
 # Currency_converter
 Programm converting currency according to exchnge rates of the Central Bank of Russia.
-After finishing, this program will be able to convert any currency available from the Central Bank of Russia.
+This program is able to convert any currency to any currency using info taken from the Central Bank of Russia website.
 
-Much thanks to Dmitry Mazhartsev (@mazhartsev) for the idea and part of execution.
+This is my first project with GUI and URL usage.
+
+Much thanks to Dmitry Mazhartsev (@mazhartsev) for the idea and a part of execution.
